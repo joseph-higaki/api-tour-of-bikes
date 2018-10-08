@@ -1,0 +1,11 @@
+{
+  "name": "api-tour-of-bikes",
+  "version": "1.0.0",
+  "description": "api service for bikes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joseph Higaki",
+  "license": "ISC"
+}
