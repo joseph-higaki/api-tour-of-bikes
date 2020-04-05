@@ -12,7 +12,9 @@ const bikes = [
     {id:4, name: "transition willy prooo"},
     {id:5, name: "specialized - test the best"},
     {id:6, name: "giant good ol reliable"},
-    {id:7, name: "pivot chivot"}
+    {id:7, name: "pivot chivot"},
+    {id:8, name: "trek good looking bikee"},
+    {id:9, name: "yeti pricey"}
     ];  
 
 app.listen(8000, () => {
