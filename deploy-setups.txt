@@ -1,0 +1,20 @@
+2020-04-05
+created ec2 instance  i-02333bb8985039921
+ ec2-52-40-114-176.us-west-2.compute.amazonaws.com
+
+setup node js : https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
+
+copied files 
+scp 
+    -i C:\Users\josep\OneDrive\Documentos\projects\keys-api-tour-of-bikes\josephhigaki-tour-of-bikes-api.pem 
+    -r 
+        C:\Users\josep\OneDrive\Documentos\projects\api-tour-of-bikes
+        ec2-user@ec2-52-40-114-176.us-west-2.compute.amazonaws.com:~\api-tour-of-bikes
+
+started the server
+    [ec2-user@ip-172-31-17-94 ~]$ cd api-tour-of-bikes
+    [ec2-user@ip-172-31-17-94 api-tour-of-bikes]$ npm build
+    [ec2-user@ip-172-31-17-94 api-tour-of-bikes]$ node server.js
+
+
+end
